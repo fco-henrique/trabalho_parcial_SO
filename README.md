@@ -11,11 +11,6 @@ gcc -o pi_par q02_p2_pi_paralelo.c -pthread -O2
 ./pi_seq
 ./pi_par
 ```
-ou
-
-```bash
-./pi_seq && ./pi_par
-```
 
 ## Resultados (Comparação de Desempenho)
 Tabela comparando o tempo de execução do processo e o tempo total das threads, conforme o número de threads utilizadas:
